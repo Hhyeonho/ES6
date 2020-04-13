@@ -30,7 +30,7 @@
 // 4 화살표함수 적용!
 const DEFAULT =  'lalalal';
 
-const sayHi = (aName = 'AAA') => 'hello ' + aName;
+// const sayHi = (aName = 'AAA') => 'hello ' + aName;
 // 디폴트값을 AAA로 설정
 const sayHi = (aName = DEFAULT) => 'hello ' + aName;
 // 디폴트값을 뭘 쓸지 따로 쓰게 되면 그게 디폴트로 나옴

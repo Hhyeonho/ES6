@@ -13,3 +13,8 @@ console.log(`hello how are you ${()=> (102 * 30303)}`);
 // 3
 const add = (a, b) => a + b;
 console.log(`hello how are you ${add(3, 5)}`);
+
+
+const mul = (c, d) => c * d;
+console.log(`aaaaa ${mul(3, 9)}`)
+console.log(` bbbbbb ${"ccccc"}`)

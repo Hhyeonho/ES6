@@ -13,13 +13,13 @@ console.log(buttonsClass);
 
 // 3) 버튼 리스너
 
-const buttonsListener = document.getElementsByClassName("btn");
-Array.from(buttonsListener).forEach(button => {
-    button.addEventListener("click", ()=>console.log("i've been clicked"))
-});
+// const buttonsListener = document.getElementsByClassName("btn");
+// Array.from(buttonsListener).forEach(button => {
+//     button.addEventListener("click", ()=>console.log("i've been clicked"))
+// });
 
 const buttonsListener2 = document.getElementsByClassName("btn");
 const arr = Array.from(buttonsListener2)
 arr.forEach(button => {
-    button.addEventListener("click", ()=>console.log("i've been clicked"))
+    button.addEventListener("click", ()=>console.log("i've been clicked2"))
 });

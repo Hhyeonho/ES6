@@ -3,10 +3,10 @@
 
 
 // // 1-blockscope 예
-// if(true){
-//     const hello = 'hi';
-// }
-// console.log(hello)
+if(true){
+    const hello = 'hi';
+}
+console.log(hello)
 // // undefined >> 콘솔에 hello를 찾지 못함 >> const let 둘다 동일
 // // hello가 if안에 있기 때문 (지역변수와 비슷한 개념)
 
